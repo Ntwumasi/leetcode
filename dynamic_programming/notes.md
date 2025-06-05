@@ -1,10 +1,7 @@
-# Dynamic Programming (DP) Mastery Guide - Tailored for Meta Interview
-
-This guide is tailored specifically for the dynamic programming problems and patterns **you've personally studied and solved** — helping you master bottom-up DP and tabulation strategies for your upcoming Meta interview.
 
 ---
 
-## 🧠 What Is Dynamic Programming?
+# 🧠 What Is Dynamic Programming?
 
 Dynamic Programming is a method for solving problems by breaking them down into overlapping subproblems, solving each subproblem once, and storing their solutions. There are two main approaches:
 
@@ -103,4 +100,3 @@ Dynamic Programming is a method for solving problems by breaking them down into 
 - Don't panic on 3D DP — focus on small transitions and build from there
 
 ---
-
