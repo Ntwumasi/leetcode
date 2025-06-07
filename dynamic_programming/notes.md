@@ -6,7 +6,7 @@
 Dynamic Programming is a method for solving problems by breaking them down into overlapping subproblems, solving each subproblem once, and storing their solutions. There are two main approaches:
 
 - **Top-down (memoization)**: recursion with caching
-- **Bottom-up (tabulation)**: build a DP table iteratively (your preferred method)
+- **Bottom-up (tabulation)**: build a DP table iteratively (preferred method)
 
 ---
 
