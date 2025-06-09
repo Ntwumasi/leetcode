@@ -8,4 +8,4 @@ def find_max_nums(nums):
             max_num = num
     return max_num
 
-    print(find_max_nums([1, 2, 3, 4, 5]))
+print(find_max_nums([1, 2, 3, 4, 5]))

@@ -1,17 +1,21 @@
-def isPalidrome(s):
-#above i am defining a function which take a string as a input
+def isPalindrome(s):
+    # Initialize two pointers at the beginning and end of the string
     left = 0
-    right = len(s) -1
-#using the left right two pointer technique i am setting left and right
+    right = len(s) - 1
+
+    # Loop until the pointers meet in the middle
     while left < right:
+        # If characters at the two pointers don't match, it's not a palindrome
         if s[left] != s[right]:
             return False
-#here i am saying while the value of left is not equal to the value of right perform this logic
-#and the logic is if left is not equal to right the return false
+        
+        # Move the pointers toward the center
         left += 1
         right -= 1
-#increment/decrement pointers
-        return True
-    
-print(isPalidrome("racecar"))
-print(isPalidrome("racecars"))
+
+    # If the loop completes without returning False, it is a palindrome
+    return True
+
+# Test cases
+print(isPalindrome("racecar"))   # True ✅
+print(isPalindrome("racecars"))  # False ❌
