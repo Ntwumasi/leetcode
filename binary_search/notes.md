@@ -150,4 +150,3 @@ def maxPathSum(root):
 
 ---
 
-Let me know if you want to turn this into a downloadable PDF or add diagrams or example walkthroughs for each section!
